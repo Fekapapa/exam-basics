@@ -35,7 +35,13 @@ The application is accepted if:
 ![anatomy](anatomy/anatomy_py.png)
 
 #### Your answer:
-[add your answer here]   
+[1: Keyword which defines that this is a function.
+2: Function name.
+3: Input parameter or argument.
+4: Function body.
+5: Function variable.
+6: Return statement.
+7: Expression.]   
 1:   
 2:   
 3:   
@@ -43,7 +49,8 @@ The application is accepted if:
 5:   
 6:   
 7:   
-
+customized to a specific initial state
 ### What is the constructor? When it is used? [2p]
 #### Your answer:
-[add your answer here]
+[Constructor: it customizing an initial statement of a class instance. Class instance automatically invokes the constructor.
+Use it when initial statement is required to every instances of a class.]
