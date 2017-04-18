@@ -32,7 +32,7 @@ class Copy(object):
             except:
                 print("Couldn't open source file.")
                 break
-                
+
     def data_writer(self, meta):
         self.data_write = open(self.destination, "w")
         self.data_write.write(meta)
