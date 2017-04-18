@@ -26,8 +26,8 @@ class Deck(object):
         + ", " + str(self.number // 4) + " " + str(Card().color[3]))
         return self.deck_print
 
-    def __init__(self, number=0):
-        self.number = number
+#    def __init__(self, number=0):
+#        self.number = number
 
 #    def draw(self):
 #        self.deck_print = str(self.number) + " cards -  " + str(self.number // 4) + " " + str(Card().color[0]) \
