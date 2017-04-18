@@ -2,7 +2,7 @@
 # and returns the average value of the odd numbers in the list
 # Create basic unit tests for it with at least 3 different test cases
 
-class Odd_Averager(object):
+class OddAverager(object):
     def odd_average(self, numbers = [0]):
         summarize = 0
         counter = 0

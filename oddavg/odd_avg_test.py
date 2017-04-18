@@ -1,18 +1,18 @@
 import unittest
-from odd_avg import Odd_Averager
+from odd_avg import OddAverager
 
 
-class Odd_Average_Tester(unittest.TestCase):
+class OddAverageTester(unittest.TestCase):
     def test_zero(self):
-        zero_list = Odd_Averager()
+        zero_list = OddAverager()
         self.assertEqual(zero_list.odd_average([]), 0)
 
     def test_even_list(self):
-        even_list = Odd_Averager()
+        even_list = OddAverager()
         self.assertEqual(even_list.odd_average([2, 4, 0]), 0)
 
     def test_normal_list(self):
-        normal_list = Odd_Averager()
+        normal_list = OddAverager()
         self.assertEqual(normal_list.odd_average([1, 2, 4, 3,  0]), 2)
 
 if __name__ == '__main__':
