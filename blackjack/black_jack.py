@@ -22,12 +22,14 @@ print(deck)
 # 11 cards - 3 Clubs, 3 Diamonds, 3 Hearts, 2 Spades
 
 class Card(object):
-    def __init__(self):
-        self.color = []
-        self.value = []
-
-    def controller(self):
+    def __init__(self, number):
+        self.value = number
+        self.color = [Clubs, Diamonds, Hearts, Spades]
 
 class Deck(object):
-    def __init__(self, number):
+    def __init__(self, number=0):
         self.number = number
+        self.deck = []
+
+    def deck_fill(self):
+        self.deck.append(Card(number).value)
