@@ -1,7 +1,7 @@
-alma
+alma, Pisti, csepp
 korte
 dinnye
-vitamin
+vitamin, narancs
 esik
 hideg
 vizsga
