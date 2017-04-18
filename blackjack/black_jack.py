@@ -28,21 +28,21 @@ class Deck(object):
         + ", " + str(self.number // 4) + " " + str(Card().color[3])
         return self.deck_print
 
-    def draw(self):
-        self.deck_print = str(self.number) + " cards -  " + str(self.number // 4) + " " + str(Card().color[0]) \
-        + ", " + str(self.number // 4) + " " + str(Card().color[1]) \
-        + ", " + str(self.number // 4) + " " + str(Card().color[2]) \
-        + ", " + str((self.number // 4) - 1) + " " + str(Card().color[3])
-        top_card_print = "Queen Spades"
-        return top_card_print
+#    def draw(self):
+#        self.deck_print = str(self.number) + " cards -  " + str(self.number // 4) + " " + str(Card().color[0]) \
+#        + ", " + str(self.number // 4) + " " + str(Card().color[1]) \
+#        + ", " + str(self.number // 4) + " " + str(Card().color[2]) \
+#        + ", " + str((self.number // 4) - 1) + " " + str(Card().color[3])
+#        top_card_print = "Queen Spades"
+#        return top_card_print
 
 deck = Deck(12)
 
 print(deck)
 # Should print out:
 # 12 cards -  3 Clubs, 3 Diamonds, 3 Hearts, 3 Spades
-top_card = deck.draw()
-print(top_card)
+#top_card = deck.draw()
+#print(top_card)
 #print(deck)
 # Should print out:
 # Queen Spades
