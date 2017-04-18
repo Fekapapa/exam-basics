@@ -49,8 +49,8 @@ The application is accepted if:
 5:   
 6:   
 7:   
-customized to a specific initial state
+
 ### What is the constructor? When it is used? [2p]
 #### Your answer:
 [Constructor: it customizing an initial statement of a class instance. Class instance automatically invokes the constructor.
-Use it when initial statement is required to every instances of a class.]
+Use it: when initial statement is required to every instances of a class.]
