@@ -14,19 +14,18 @@
 class Card(object):
     def __init__(self, number=0):
         self.value = number
-        self.color = [Clubs, Diamonds, Hearts, Spades]
+        self.color = ["Clubs", "Diamonds", "Hearts", "Spades"]
 
 class Deck(object):
     def __init__(self, number=0):
         self.number = number
-        self.deck = []
+        self.deck = 0
         self.deck_fill()
 
     def deck_fill(self):
-        for i in range(4):
-            if self.number >= 4:
-                self.deck.append(Card(number).value // 4 + Card(number).color[i])
-        #print(self.deck)
+        self.deck = str(self.number) + " cards -  " + str(self.number // 4) + " " + str(Card().color[0]) + ", " + str(self.number // 4) + " " + str(Card().color[1]) + ", " + str(self.number // 4) + " " + str(Card().color[2]) + ", " + str(self.number // 4) + " " + str(Card().color[3])
+        return self.deck
+
 
 
 deck = Deck(12)
