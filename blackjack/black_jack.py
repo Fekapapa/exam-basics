@@ -20,11 +20,14 @@ class Deck(object):
     def __init__(self, number=0):
         self.number = number
         self.deck = 0
-        self.deck_fill()
 
-    def deck_fill(self):
-        self.deck = str(self.number) + " cards -  " + str(self.number // 4) + " " + str(Card().color[0]) + ", " + str(self.number // 4) + " " + str(Card().color[1]) + ", " + str(self.number // 4) + " " + str(Card().color[2]) + ", " + str(self.number // 4) + " " + str(Card().color[3])
-        return self.deck
+    def __new__(self, number=0):
+        self.number = number
+        self.deck_print = str(self.number) + " cards -  " + str(self.number // 4) + " " + str(Card().color[0]) \
+        + ", " + str(self.number // 4) + " " + str(Card().color[1]) \
+        + ", " + str(self.number // 4) + " " + str(Card().color[2]) \
+        + ", " + str(self.number // 4) + " " + str(Card().color[3])
+        return self.deck_print
 
 
 
