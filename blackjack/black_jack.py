@@ -20,12 +20,13 @@ class Deck(object):
     def __init__(self, number=0):
         self.number = number
         self.deck = []
+        self.deck_fill()
 
     def deck_fill(self):
         for i in range(4):
             if self.number >= 4:
                 self.deck.append(Card(number).value // 4 + Card(number).color[i])
-        print(self.deck)
+        #print(self.deck)
 
 
 deck = Deck(12)
